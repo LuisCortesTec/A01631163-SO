@@ -4,5 +4,5 @@ compila:
 
 push:
 	git add .
-	git  commit -m "message"
+	git commit -m "message"
 	git put origin master
