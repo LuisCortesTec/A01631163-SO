@@ -11,7 +11,7 @@ void * hello(void *id){
     printf("hello world %ld, %d\n", (long)id, val);
     val += val;
     pthread_mutex_unlock(&mutex);
-};
+}
 
 int main(){
     pthread_t hilos[NUMTHREADS];
